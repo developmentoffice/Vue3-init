@@ -1,0 +1,11 @@
+@import 'settings.css';
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+body {
+    -webkit-font-smoothing: antialiased;
+    font: $fontWeightNormal 16px/24px $font;
+    color: $textColor;
+}

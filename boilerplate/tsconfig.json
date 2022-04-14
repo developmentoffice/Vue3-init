@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "module": "ESNext",
+        "target": "es2016",
+        "lib": ["DOM", "ESNext"],
+        "allowJs": true,
+        "strict": true,
+        "esModuleInterop": true,
+        "incremental": true,
+        "skipLibCheck": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "forceConsistentCasingInFileNames": true,
+        "useDefineForClassFields": true,
+        "jsx": "preserve",
+        "noImplicitThis": true,
+        "isolatedModules": true,
+        "preserveValueImports": true,
+        "importsNotUsedAsValues": "error",
+        "paths": {
+            "@/*": ["src/*"]
+        },
+        "types": ["vitest/globals"]
+    },
+    "exclude": ["dist", "node_modules"]
+}
